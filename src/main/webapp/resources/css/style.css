@@ -1,0 +1,111 @@
+body {
+    background-image: url("/resources/image/background2.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    background: rgba(217, 217, 217, .6);
+}
+
+.searchform {
+    /*background: rgba(54, 25, 25, .6);*/
+    background: rgba(217, 217, 217, .6);
+    /*color: white;*/
+    margin: 5em 2.5em;
+    padding: 1em;
+}
+
+.searchform > form > * {
+    margin: 0.5em;
+}
+
+#regform {
+    background: rgba(217, 217, 217, .8);
+    padding: 1em;
+    height: 100%;
+}
+#regform > form > * {
+    margin: 0.3em;
+}
+
+.footer {
+    background: rgba(217, 217, 217, .6);
+    padding-left: 1em;
+    width: 100%;
+}
+
+table, td, th {    
+    border: 1px solid black;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    padding: 1em;
+}
+
+#auctionHistory {
+    background: rgba(217, 217, 217, .8);
+    padding: 1em;
+}
+
+.error {
+    color: red;
+}
+
+#employeeBody, #cusRep, .mask {
+    background: rgba(217, 217, 217, .8);
+    padding: 1em;
+    width: 100%;
+}
+
+#employeeBody > ul > * {
+    padding: 0.25em;
+}
+
+.mask {
+
+}
+
+table.accSettingTable > tr > td{
+    border: none;
+    /*padding: 1.5em;*/
+}
+
+.tdSubmit, .searchResultTable {
+    border: none;
+}
+
+.error, .red {
+    color:red;
+}
+
+.number-textfield{
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+}
+
+.green {
+    color:green;
+}
+
+.adminManageForm > input, .empInfo {
+    width:7.8em;
+}
+.empManageForm > input, .cusInfo {
+    width:7.8em;
+}
+
+.button {
+    appearance: button;
+    -moz-appearance: button;
+    -webkit-appearance: button;
+}
